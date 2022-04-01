@@ -8,7 +8,7 @@ P2 modifies the weighting scheme of the training objective function to improve s
 
 ![snr_weight](https://user-images.githubusercontent.com/36615789/161203299-8b02d76b-9c51-4529-8329-3ac08e9f3bc8.png)
 
-# Pre-trained models
+## Pre-trained models
 
 All models are trained at 256x256 resolution.
 
@@ -26,8 +26,10 @@ Here are the download links for each model checkpoint:
  * MetFaces baseline: [metface_baseline.pt](https://drive.google.com/file/d/1SaHqew52S9iRCeN7kpPMLqlo2t34ekTb/view?usp=sharing)
  * MetFaces ours: [metface_p2.pt](https://drive.google.com/file/d/1swjgSB1WFF9JnBR6W6Newnfzdyo1nPYf/view?usp=sharing)
  
+## Requirements
+We tested on PyTorch 1.7.1, single RTX8000 GPU.
 
-# Sampling from pre-trained models
+## Sampling from pre-trained models
 
 First, set PYTHONPATH variable to point to the root of the repository. Do the same when training new models. 
 
@@ -45,7 +47,7 @@ python scripts/image_sample.py --attention_resolutions 16 --class_cond False --d
 
 To sample for 250 timesteps without DDIM, replace `--timestep_respacing ddim25` to `--timestep_respacing 250`, and replace `--use_ddim True` with `--use_ddim False`.
 
-# Training your models
+## Training your models
 
 `--p2_gamma` and `--p2_k` are two hyperparameters of P2 weighting. We used `--p2_gamma 0.5 --p2_k 1` and `--p2_gamma 1 --p2_k 1` in the paper.
 
