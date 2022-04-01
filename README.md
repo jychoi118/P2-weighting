@@ -6,6 +6,7 @@ This repository is heavily based on [openai/guided-diffusion](https://github.com
 
 P2 modifies the weighting scheme of the training objective function to improve sample quality. It encourages the diffusion model to focus on recovering signals from highly corrupted data, where the model learns global and perceptually rich concepts. Below figure shows the weighting schemes in terms of SNR.
 
+![snr_weight](https://user-images.githubusercontent.com/36615789/161203299-8b02d76b-9c51-4529-8329-3ac08e9f3bc8.png)
 
 # Pre-trained models
 
@@ -27,6 +28,12 @@ Here are the download links for each model checkpoint:
  
 
 # Sampling from pre-trained models
+
+First, set PYTHONPATH variable to point to the root of the repository. Do the same when training new models. 
+
+```
+export PYTHONPATH=$PYTHONPATH:$(pwd)
+```
 
 Put model checkpoints into a folder `models/`.
 
