@@ -1,6 +1,6 @@
 # P2 weighting (CVPR 2022)
 
-This is the codebase for [Perception Prioritized Training of Diffusion Models]().
+This is the codebase for [Perception Prioritized Training of Diffusion Models](https://arxiv.org/abs/2204.00227).
 
 This repository is heavily based on [openai/guided-diffusion](https://github.com/openai/guided-diffusion).
 
