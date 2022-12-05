@@ -12,19 +12,7 @@ P2 modifies the weighting scheme of the training objective function to improve s
 
 All models are trained at 256x256 resolution.
 
-Here are the download links for each model checkpoint:
-
- * FFHQ baseline: [ffhq_baseline.pt](https://drive.google.com/file/d/17SR1lih6BxBxJhr8s1iOjhw540H3Pc_m/view?usp=sharing)
- * FFHQ ours: [ffhq_p2.pt](https://drive.google.com/file/d/1nlCPBqOqSeqAQ8F4noThbnmr4okriwTc/view?usp=sharing)
- * CelebA-HQ ours: [celebahq_p2.pt](https://drive.google.com/file/d/1ag8JnvKGKo6L6avO_dTFEBNWJo2jZIDF/view?usp=sharing)
- * CUB baseline: [cub_baseline.pt](https://drive.google.com/file/d/1Wv-hHL7bhGsWyCp3i-RK6YcodcRrD-dj/view?usp=sharing)
- * CUB ours: [cub_p2.pt](https://drive.google.com/file/d/13RKF9MLNR3zpMMNchW7JtsjktVMgS0rK/view?usp=sharing)
- * AFHQ-dog baseline: [afhq_baseline.pt](https://drive.google.com/file/d/1bv-xnJC1-qBg9ZlVdugsXLuHVsKj1RRE/view?usp=sharing)
- * AFHQ-dog ours: [afhq_p2.pt](https://drive.google.com/file/d/1f6_swzSPNJXs9FWf6AW585bv7dORzRWf/view?usp=sharing)
- * Flowers baseline: [flower_baseline.pt](https://drive.google.com/file/d/1sAO2OJ8j1kza2zH8MerbD6hGxdKsoogB/view?usp=sharing)
- * Flowers ours: [flower_p2.pt](https://drive.google.com/file/d/1d6DDKAEu_iwNzxlBaVrETHBcc6oF5jYf/view?usp=sharing)
- * MetFaces baseline: [metface_baseline.pt](https://drive.google.com/file/d/1SaHqew52S9iRCeN7kpPMLqlo2t34ekTb/view?usp=sharing)
- * MetFaces ours: [metface_p2.pt](https://drive.google.com/file/d/1swjgSB1WFF9JnBR6W6Newnfzdyo1nPYf/view?usp=sharing)
+Here are the models trained on FFHQ, CelebA-HQ, CUB, AFHQ-Dogs, Flowers, and MetFaces: [drive](https://1drv.ms/u/s!AkQjJhxDm0Fyhqp_4gkYjwVRBe8V_w?e=Et3ITH)
  
 ## Requirements
 We tested on PyTorch 1.7.1, single RTX8000 GPU.
