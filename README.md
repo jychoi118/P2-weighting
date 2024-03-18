@@ -12,7 +12,7 @@ P2 modifies the weighting scheme of the training objective function to improve s
 
 All models are trained at 256x256 resolution.
 
-Here are the models trained on FFHQ, CelebA-HQ, CUB, AFHQ-Dogs, Flowers, and MetFaces: [drive](https://1drv.ms/f/s!AkQjJhxDm0Fyhqp_4gkYjwVRBe8V_w?e=Us79E9)  
+Here are the models trained on FFHQ, CelebA-HQ, CUB, AFHQ-Dogs, Flowers, and MetFaces: [onedrive](https://1drv.ms/f/s!AkQjJhxDm0Fyhqp_4gkYjwVRBe8V_w?e=Us79E9)  [gdrive](https://drive.google.com/drive/folders/1bcWh3XuQzdct4-UPTrIX-lvs47OiLaOM?usp=sharing)
  
 ## Requirements
 We tested on PyTorch 1.7.1, single RTX8000 GPU.
