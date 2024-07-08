@@ -68,7 +68,7 @@ def main():
                 out_path,
                 nrow=1,
                 normalize=True,
-                range=(-1, 1),
+
             )
         # saving npz
         sample = ((sample + 1) * 127.5).clamp(0, 255).to(th.uint8)
